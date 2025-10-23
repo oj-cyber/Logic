@@ -13,6 +13,6 @@ public class Doctor extends Department {
         System.out.println("License: " + licenseNumber);
     }
     public void prescribeMedicine() {
-        System.out.println("Dr. " + name + " is prescribing medicine.");
+        System.out.println("Dr. " + name + " is prescribing medicine to the patient.");
     }
 }
