@@ -5,17 +5,18 @@ public class Main {
         hospital.displayHospitalInfo();
         System.out.println("Hospital Code: " + Department.HOSPITAL_CODE + "\n");
 
+
         System.out.println("=== Doctor ===");
         Doctor doctor = new Doctor("Mukibi Wilson", 101, "Cardiology",
                 "Heart Specialist", "MED12345"+"\n");
         doctor.displayInfo();
 
         System.out.println("=== Nurse ===");
-        Nurse nurse = new Nurse("Kyeyune Johnson", 201, "Emergency", "Day"+ "\n");
+        Nurse nurse = new Nurse("Kyeyune Johnson", 201, "Emergency", "Day",500000 + "\n");
         nurse.displayInfo();
 
         System.out.println("=== Department ===");
-       Department head = new Department("Emma Davis", 301, "Cardiology");
+       Department head = new Department("Emma Logan", 301, "Cardiology");
        head.displayInfo();
 
     }
