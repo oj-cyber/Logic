@@ -14,6 +14,6 @@ public class Department {
         return deprtmentId;
     }
     public void displayInfo() {
-        System.out.println("ID: " +deprtmentId + ", Name: " + name + " , Dept: " + department);
+        System.out.println("ID: " +deprtmentId + ", Department Head: " + name + " , Dept: " + department);
     }
 }
